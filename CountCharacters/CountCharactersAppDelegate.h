@@ -11,5 +11,9 @@
 @interface CountCharactersAppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+@property (weak) IBOutlet NSTextField *textField;
+@property (weak) IBOutlet NSTextField *resultsLabel;
+
+- (IBAction)countIt:(id)sender;
 
 @end
