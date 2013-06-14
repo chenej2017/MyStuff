@@ -10,6 +10,10 @@
 
 @implementation CountCharactersAppDelegate
 
+@synthesize window;
+@synthesize textField;
+@synthesize resultsLabel;
+
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
